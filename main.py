@@ -4,12 +4,11 @@ from PyQt5.QtCore import Qt #Udrzeni rozliseni
 import os #Prace se soubory
 from PIL import Image #Zakladni prace s obrazky
 from PIL import ImageFilter #Filtry pro obrazky
-
 #Vytvoreni aplikace
 app = QApplication([])
 win = QWidget()       
 win.resize(700, 500) 
-win.setWindowTitle('Easy Editor')
+win.setWindowTitle('Easy Peasy Editor')
 
 #Prvky aplikace
 preview_image = QLabel()
